@@ -11,15 +11,20 @@ solo dai video, non dal testo.
 
 ## Com'è fatto
 
-Pagina statica (niente build: HTML + CSS + ESM), servita da GitHub Pages. I dati stanno nel
+Pagina statica (niente build: HTML + CSS + ESM), servita da GitHub Pages **dalla cartella `docs/`**.
+
+🚨 **Pages pubblica ogni file che gli dai in pasto**: per questo il sito sta in `docs/` e
+`domande.json` — che contiene le risposte giuste — resta nella radice, fuori dalla pubblicazione.
+Se un giorno qualcuno rimette la sorgente di Pages su `/`, l'elenco delle risposte diventa
+scaricabile da chiunque abbia il link. I dati stanno nel
 progetto Supabase **SV Platform** (`hypkwdvvrmakqrowbkqw`), schema `quiz`.
 
 | file | cosa fa |
 |---|---|
-| `index.html` + `app.js` | copertina (nome e cognome) → test → esito |
-| `quiz.js` | una domanda per schermata, salvataggio a ogni risposta, riepilogo prima di consegnare |
-| `esito.js` | voto, andamento per sezione, ripasso delle domande sbagliate con la spiegazione |
-| `risultati.html` + `risultati.js` | la pagina della direzione: chi ha consegnato, quanto ha preso, risposta per risposta, CSV |
+| `docs/index.html` + `docs/app.js` | copertina (nome e cognome) → test → esito |
+| `docs/quiz.js` | una domanda per schermata, salvataggio a ogni risposta, riepilogo prima di consegnare |
+| `docs/esito.js` | voto, andamento per sezione, ripasso delle domande sbagliate con la spiegazione |
+| `docs/risultati.html` + `docs/risultati.js` | la pagina della direzione: chi ha consegnato, quanto ha preso, risposta per risposta, CSV |
 | `domande.json` | **il testo delle domande: è qui che si modificano** |
 | `sync.py` | ricopia `domande.json` nel database |
 

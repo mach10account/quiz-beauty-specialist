@@ -1,10 +1,15 @@
 # quiz-beauty-specialist
 
-Test finale sulle procedure per beauty specialist. Pagina statica su GitHub Pages, dati nel
+Test finale sulle procedure per beauty specialist. Pagina statica su GitHub Pages (sorgente:
+**branch `main`, cartella `/docs`**), dati nel
 progetto Supabase **SV Platform** `hypkwdvvrmakqrowbkqw`, schema `quiz`. Vedi `README.md` per
 l'elenco delle funzioni.
 
 ## Da sapere prima di metterci mano
+
+- 🚨 **La sorgente di Pages deve restare `/docs`.** Il sito sta li'; `domande.json` (con le
+  risposte giuste) sta nella radice apposta, perche' Pages pubblica QUALSIASI file gli dai.
+  Rimettere la sorgente su `/` regala l'elenco delle risposte a chiunque abbia il link.
 
 - 🚨 **Le risposte giuste non escono mai dal database.** `quiz_bs_domande_pubbliche` toglie il
   flag `ok` e mescola le opzioni con il token come seme; corregge `quiz_bs_chiudi`. Se un domani
