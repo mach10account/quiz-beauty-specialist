@@ -1,0 +1,321 @@
+[
+{"codice":"crm-01","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Da dove si effettua materialmente la telefonata al lead?",
+ "opzioni":[["Dal proprio cellulare personale",true],["Dal dialer interno di CRM4, cliccando Avvia chiamata",false],["Da Manager Stats, sezione chiamate",false],["Da WhatsApp Web, chiamata vocale",false]],
+ "spiegazione":"Le chiamate NON vengono effettuate dal software: si prende il numero dalla scheda e si chiama dal proprio telefono. CRM4 serve solo a prendere il contatto e a registrare l'esito."},
+
+{"codice":"crm-02","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Entri nella schermata di chiamata di CRM4 (call list). Qual è la prima cosa da fare?",
+ "opzioni":[["Cliccare \"annulla chiamata\": la chiamata non parte davvero dal software",true],["Cliccare \"avvia chiamata\" e aspettare lo squillo",false],["Aspettare che il countdown finisca",false],["Chiudere la scheda e riaprirla dai richiami",false]],
+ "spiegazione":"Appena entrate nella schermata si clicca \"annulla chiamata\", perché le chiamate non vengono poi effettuate realmente nel software."},
+
+{"codice":"crm-03","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Dove trovi i contatti NUOVI, mai chiamati?",
+ "opzioni":[["Nella colonna a destra dello schermo (la pre-call list)",true],["Nella sezione Richiami",false],["Nella pipeline di Manager Stats",false],["Nella scheda cliente del centro",false]],
+ "spiegazione":"I lead caldi appena entrati escono nella colonnina a destra, con il bottone \"aggiungi in call list\". I già chiamati stanno invece nella sezione Richiami."},
+
+{"codice":"crm-04","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Esce un lead nuovo nella colonna a destra, ma non lo aggiungi in call list prima che scada il countdown. Cosa succede?",
+ "opzioni":[["Non va perso: riesce di nuovo dopo circa 15 minuti",true],["Viene perso definitivamente",false],["Viene riassegnato a un'altra beauty specialist",false],["Finisce subito nella sezione Richiami",false]],
+ "spiegazione":"Se non lo aggiungi, dopo il countdown il lead riesce di nuovo dopo altri 15 minuti. Non vanno persi, riappaiono."},
+
+{"codice":"crm-05","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Nella sezione Richiami, quale impostazione va SEMPRE controllata prima di guardare l'elenco?",
+ "opzioni":[["Il filtro temporale, da impostare su \"Quest'anno\"",true],["L'ordinamento alfabetico per nome",false],["Il filtro per centro estetico",false],["Il filtro per tipo di trattamento",false]],
+ "spiegazione":"Senza il filtro temporale su \"Quest'anno\" i risultati della sezione Richiami non sono corretti."},
+
+{"codice":"crm-06","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Qual è la sequenza giusta per lavorare i lead della sezione Richiami?",
+ "opzioni":[["Clicco \"aggiungi in call list\" su tutti i lead da richiamare, poi apro il quadratino rosso a destra e clicco \"avvia chiamata\"",true],["Chiamo i lead direttamente dalla sezione Richiami, senza aggiungerli alla call list",false],["Esporto l'elenco e chiamo dal foglio Excel",false],["Li rimando su CRM4 da Manager Stats e poi li chiamo",false]],
+ "spiegazione":"Procedura: Richiami → aggiungi in call list sui lead da richiamare → quadratino rosso a destra → avvia chiamata."},
+
+{"codice":"crm-07","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Nelle informazioni del lead leggi \"modulo 2.lpg\". Che cosa ti sta dicendo?",
+ "opzioni":[["Da quale campagna/trattamento arriva il lead, così sai come gestirlo con la scheda cliente",true],["Il numero di volte che il lead è stato chiamato",false],["Il codice identificativo della beauty specialist assegnata",false],["Il modulo del report giornaliero da compilare",false]],
+ "spiegazione":"Ogni centro promuove più trattamenti contemporaneamente: la voce \"modulo:\" dice da che campagna arriva il contatto (es. corpo o viso, tecnologia LPG...)."},
+
+{"codice":"crm-08","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Qual è la procedura standard di una giornata di lavoro su CRM4?",
+ "opzioni":[["Prima si svuota la colonna dei lead nuovi, poi si va in Richiami e si aggiungono in call list i lead rimasti appesi",true],["Prima si svuotano i Richiami, poi si guardano i lead nuovi",false],["Si alternano un lead nuovo e un richiamo",false],["Si lavorano solo i lead nuovi: i richiami li assegna il project manager",false]],
+ "spiegazione":"Due secchi: la colonnina dei lead caldi si riempie da sola e ha la precedenza; quando è vuota si va in Richiami e si ripescano i lead con esito non definitivo."},
+
+{"codice":"crm-09","sezione":"CRM4 — come si lavora","tipo":"singola",
+ "testo":"Che cosa trovi nella scheda cliente di un centro estetico?",
+ "opzioni":[["Luogo, offerta, script, orari, competitor e tutte le informazioni utili su quel cliente",true],["Solo l'indirizzo e il numero di telefono del centro",false],["L'elenco degli appuntamenti fissati dalle colleghe",false],["Le statistiche del centro e il fatturato",false]],
+ "spiegazione":"Ogni centro ha la sua scheda cliente con luogo, offerta, script, orari, competitor e qualsiasi informazione utile per lavorare quel cliente."},
+
+{"codice":"ric-01","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Regola delle tre chiamate: come vanno distribuiti i tentativi?",
+ "opzioni":[["2 chiamate il primo giorno in due fasce orarie diverse, la terza il giorno seguente, possibilmente la mattina",true],["3 chiamate lo stesso giorno, a distanza di un'ora",false],["1 chiamata al giorno per 3 giorni di fila",false],["2 chiamate il primo giorno nella stessa fascia oraria, la terza dopo una settimana",false]],
+ "spiegazione":"3 tentativi entro 48 ore: 2 il primo giorno in DUE fasce orarie diverse e la terza il giorno dopo, possibilmente la mattina."},
+
+{"codice":"ric-02","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Entro quanto tempo dalla prima chiamata vanno completati i 3 tentativi?",
+ "opzioni":[["48 ore",true],["24 ore",false],["72 ore",false],["Una settimana",false]],
+ "spiegazione":"Massimo 3 chiamate entro 48 ore dalla prima."},
+
+{"codice":"ric-03","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Un contatto non risponde alla PRIMA chiamata. Che esito metti e dove finisce il lead?",
+ "opzioni":[["\"Primo richiamo non risposto\" — il contatto appare nella sezione Richiami",true],["\"Primo richiamo non risposto\" — il contatto resta nella colonna a destra",false],["\"Richiamo importante\" — il contatto riesce dopo 24 ore",false],["\"Mai risposto\" — il contatto viene chiuso",false]],
+ "spiegazione":"1ª chiamata a vuoto → \"Primo richiamo non risposto\", e il contatto finisce nella sezione Richiami."},
+
+{"codice":"ric-04","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Terzo tentativo e il contatto non ha ancora risposto. Che esito metti e cosa succede al lead?",
+ "opzioni":[["\"Mai risposto\": il contatto viene chiuso definitivamente e sparisce da CRM4",true],["\"Mai risposto\": il contatto resta nei Richiami per un altro giro",false],["\"Non interessato\": il contatto viene chiuso",false],["\"Secondo richiamo non risposto\": il contatto torna in call list",false]],
+ "spiegazione":"3ª chiamata senza risposta → \"Mai risposto\", esito definitivo: il lead è chiuso e sparisce da CRM4."},
+
+{"codice":"ric-05","sezione":"Chi non risponde e i richiami","tipo":"multipla",
+ "testo":"Quali di questi eventi fanno partire un messaggio WhatsApp automatico dal TUO numero verso il lead? (più di una risposta)",
+ "opzioni":[["L'ingresso del lead nel sistema (messaggio di benvenuto con i bottoni interessata / non interessata)",true],["L'esito \"Primo richiamo non risposto\"",true],["L'esito \"Mai risposto\"",true],["L'esito \"Secondo richiamo non risposto\"",false]],
+ "spiegazione":"Partono in automatico: il messaggio di benvenuto all'ingresso del lead, quello dopo \"Primo richiamo non risposto\" e quello dopo \"Mai risposto\". Dopo il \"Secondo richiamo non risposto\" NON parte nessun messaggio. Per questo va tenuto d'occhio WhatsApp."},
+
+{"codice":"ric-06","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"La persona risponde ma è impegnata e ti chiede di richiamarla domani pomeriggio. Cosa fai?",
+ "opzioni":[["Esito \"Richiamo importante\", inserendo data e ora indicate: il contatto riappare da solo in quel giorno e orario",true],["Esito \"Richiamo in futuro\" con la data di domani",false],["Esito \"Primo richiamo non risposto\" e la richiamo domani",false],["Non metto nessun esito e me lo segno su un foglio",false]],
+ "spiegazione":"Persona occupata che indica quando richiamarla → \"Richiamo importante\" + data e ora: il contatto riesce automaticamente in quel momento."},
+
+{"codice":"ric-07","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Qual è il confine tra \"Richiamo importante\" e \"Richiamo in futuro\"?",
+ "opzioni":[["7 giorni: entro i 7 giorni è Richiamo importante, oltre è Richiamo in futuro",true],["48 ore: entro le 48 ore è Richiamo importante, oltre è Richiamo in futuro",false],["30 giorni: entro il mese è Richiamo importante, oltre è Richiamo in futuro",false],["Non c'è una soglia, si sceglie in base all'interesse del lead",false]],
+ "spiegazione":"\"Richiamami domani o dopodomani\" → Richiamo importante. \"Richiamami fra due mesi, sono in vacanza\" → Richiamo in futuro (oltre i 7 giorni). In entrambi i casi va messa la data."},
+
+{"codice":"ric-08","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"CASO PARTICOLARE. Avevi messo \"Richiamo importante\", la richiami nell'orario che ti ha chiesto lei e non risponde. La richiami altre due volte, niente. Che esito finale metti?",
+ "opzioni":[["\"Non interessato\", scrivendo nelle note \"non mi ha più risposto\"",true],["\"Mai risposto\", come nella procedura classica dei non risposti",false],["\"Richiamo importante\" con una nuova data",false],["\"Errore\", perché il numero non risponde più",false]],
+ "spiegazione":"È l'eccezione alla regola: dopo un richiamo importante andato a vuoto si fanno comunque 1° e 2° richiamo non risposto, ma alla terza NON si mette \"Mai risposto\" — si mette \"Non interessato\" con la nota \"non mi ha più risposto\"."},
+
+{"codice":"ric-09","sezione":"Chi non risponde e i richiami","tipo":"singola",
+ "testo":"Un lead risponde su WhatsApp cliccando \"NON SONO INTERESSATO\". Cosa fai?",
+ "opzioni":[["Lo chiamo comunque fino a 3 volte con la procedura classica dei non risposti e alla fine metto \"Non interessato\" (invece di \"Mai risposto\")",true],["Metto subito \"Non interessato\" e chiudo, senza chiamarlo",false],["Metto subito \"Mai risposto\"",false],["Lo lascio nei richiami e aspetto che mi richiami lui",false]],
+ "spiegazione":"Anche se scrive che non è interessato, il lead va chiamato fino a 3 volte seguendo la procedura dei non risposti; alla fine, al posto di \"Mai risposto\", si mette \"Non interessato\"."},
+
+{"codice":"app-01","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"In quale formato va scritta la data dell'appuntamento nelle note?",
+ "opzioni":[["24-09-2026 10:30 — giorno, mese, anno, uno spazio, ora e minuti",true],["24/9/26 alle 10.30",false],["2026-09-24 10:30",false],["Giovedì 24 settembre ore 10:30",false]],
+ "spiegazione":"Formato obbligatorio dd-mm-aaaa hh:mm con un solo spazio, es. 24-09-2026 10:30."},
+
+{"codice":"app-02","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Dove va inserita la data dell'appuntamento e cosa succede se la scrivi male o la dimentichi?",
+ "opzioni":[["Nelle note in alto a destra; se manca o è nel formato sbagliato non verrà segnato nessun appuntamento",true],["Nelle note in alto a destra; il sistema la corregge da solo se è nel formato sbagliato",false],["Nel campo \"data appuntamento\" della scheda; se manca la chiede il project manager",false],["Su Manager Stats nella sezione report; se manca non succede nulla",false]],
+ "spiegazione":"La data va nelle note in alto a destra, PRIMA di confermare l'esito. Se non la inserite o la inserite male, l'appuntamento non viene segnato."},
+
+{"codice":"app-03","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Il centro NON prevede acconto e la persona accetta l'appuntamento al telefono. Che esito metti?",
+ "opzioni":[["Appuntamento confermato",true],["Appuntamento con attesa acconto",false],["Appuntamento confermato con messaggio",false],["Appuntamento con acconto pagato",false]],
+ "spiegazione":"Centro senza acconto = \"Appuntamento confermato\" (ricordando sempre la data nelle note)."},
+
+{"codice":"app-04","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Il centro richiede l'acconto. Cosa fa arrivare al lead il link di pagamento?",
+ "opzioni":[["Mettere l'esito \"Appuntamento con attesa acconto\" e cliccare conferma esito",true],["Mettere l'esito \"Appuntamento con attesa acconto in negozio\" e cliccare conferma esito",false],["Mandare il link a mano da WhatsApp: non c'è un automatismo",false],["Mettere l'esito \"Reminder attesa acconto\"",false]],
+ "spiegazione":"Il link parte quando si conferma l'esito \"Appuntamento con attesa acconto\" — da non confondere con \"in negozio\"."},
+
+{"codice":"app-05","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"La cliente paga l'acconto tramite il link mentre sei ancora al telefono. Cosa devi fare tu su CRM4?",
+ "opzioni":[["Niente: il sistema vede il pagamento e sposta da solo l'esito su \"Acconto pagato\", avvisando anche la titolare",true],["Cambiare a mano l'esito in \"Appuntamento con acconto pagato\"",false],["Segnalare il pagamento su Manager Stats",false],["Rimettere il lead in call list e riesitarlo",false]],
+ "spiegazione":"Pagamento tramite link = automatico. L'esito passa da solo ad \"Acconto pagato\" e parte il messaggio alla titolare con l'appuntamento confermato."},
+
+{"codice":"app-06","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Hai messo \"Appuntamento con attesa acconto\" ma la cliente non paga subito (carta scarica). Dove la ritrovi?",
+ "opzioni":[["Riesce da sola nella call list dopo circa 24 ore: non finisce nella sezione Richiami",true],["Finisce nella sezione Richiami e va ripescata a mano",false],["Sparisce da CRM4 e va rimandata dentro da Manager Stats",false],["Resta fissa nella colonna a destra finché non paga",false]],
+ "spiegazione":"Il lead in attesa acconto si ripropone da solo nella call list dopo 24 ore, così ti ricordi di risollecitare l'acconto. Non devi ripescarlo dai richiami."},
+
+{"codice":"app-07","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"La richiami dopo 24 ore: non ha ancora pagato ma conferma che pagherà. Che esito metti?",
+ "opzioni":[["Reminder attesa acconto",true],["Appuntamento con attesa acconto in negozio",false],["Acconto non pagato",false],["Richiamo importante",false]],
+ "spiegazione":"Si mette \"Reminder attesa acconto\" e il lead riesce di nuovo dopo 24 ore."},
+
+{"codice":"app-08","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Dopo i solleciti la cliente continua a non pagare l'acconto (o ti dice che non lo pagherà). Che esito metti?",
+ "opzioni":[["\"Acconto non pagato\": è l'esito definitivo che chiude il giro",true],["Lascio \"Appuntamento con attesa acconto\" finché non si fa viva",false],["\"Richiamo in futuro\" con data fra un mese",false],["\"Errore\", perché l'appuntamento non si è concretizzato",false]],
+ "spiegazione":"Dopo circa 2 solleciti senza pagamento si chiude con \"Acconto non pagato\". È fondamentale arrivare a un esito definitivo e non lasciare il lead appeso."},
+
+{"codice":"app-09","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Avevi già confermato l'esito \"Appuntamento con attesa acconto\", poi la cliente ti dice che preferisce passare in centro a lasciare l'acconto in contanti. Cosa fai?",
+ "opzioni":[["Vado nella sezione Richiami, la ripesco con \"aggiungi in call list\" e cambio l'esito in \"Appuntamento con attesa acconto in negozio\"",true],["Cambio l'esito direttamente dalla sezione Richiami, senza aggiungerla in call list",false],["Lascio \"Appuntamento con attesa acconto\" e scrivo nelle note che paga in centro",false],["Metto subito \"Acconto pagato\", visto che pagherà in centro",false]],
+ "spiegazione":"Il lead è sparito dalla call list: va ripescato dai Richiami, aggiunto in call list e riesitato come \"Appuntamento con attesa acconto in negozio\"."},
+
+{"codice":"app-10","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"La titolare ti scrive sul gruppo che la cliente è passata in centro e ha lasciato l'acconto. Cosa succede su CRM4?",
+ "opzioni":[["Nulla in automatico: devo ripescare il lead dai Richiami e cambiare io l'esito in \"Acconto pagato\"",true],["Il sistema aggiorna da solo l'esito, come per il pagamento via link",false],["Ci pensa il project manager a chiudere l'esito",false],["Lascio l'esito \"Appuntamento con attesa acconto in negozio\": è già definitivo",false]],
+ "spiegazione":"Solo il pagamento tramite LINK aggiorna l'esito da solo. Con gli altri metodi l'esito va cambiato a mano, ripescando il lead dai richiami."},
+
+{"codice":"app-11","sezione":"Appuntamenti e acconto","tipo":"singola",
+ "testo":"Quando è corretto usare \"Appuntamento confermato con messaggio\"?",
+ "opzioni":[["Solo se il contatto ha confermato per iscritto giorno e orario: vale come appuntamento a tutti gli effetti",true],["Ogni volta che mando un messaggio al lead proponendo giorno e ora, anche senza risposta",false],["Quando il lead ha letto il messaggio ma non ha ancora risposto",false],["Quando il lead conferma a voce ma non risponde più su WhatsApp",false]],
+ "spiegazione":"Serve la conferma scritta di giorno E orario. Messaggio inviato senza risposta = appuntamento NON preso: vale la regola delle tre chiamate."},
+
+{"codice":"esi-01","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Che cos'è un esito definitivo?",
+ "opzioni":[["Un esito che non richiede altre azioni da parte tua o del lead: sono i lead \"lavorati correttamente\"",true],["Un esito che non si può più modificare in nessun modo",false],["Un esito che chiude l'appuntamento, quindi solo gli esiti di appuntamento",false],["Un esito confermato dal project manager a fine giornata",false]],
+ "spiegazione":"Definitivo = non è in sospeso di ulteriori azioni. Sono i lead \"lavorati correttamente\". L'obiettivo della beauty specialist è portare tutti i lead a un esito definitivo."},
+
+{"codice":"esi-02","sezione":"Esiti: definitivi e casi speciali","tipo":"multipla",
+ "testo":"Quali di questi sono esiti NON definitivi (cioè lead ancora da lavorare)? (più di una risposta)",
+ "opzioni":[["Primo richiamo non risposto",true],["Appuntamento con attesa acconto",true],["Reminder attesa acconto",true],["Richiamo importante",true],["Mai risposto",false],["Fuori zona",false],["Acconto non pagato",false]],
+ "spiegazione":"Non definitivi: 1° e 2° richiamo non risposto, richiamo importante, appuntamento con attesa acconto (anche in negozio), reminder attesa acconto. Mai risposto, fuori zona e acconto non pagato sono invece definitivi."},
+
+{"codice":"esi-03","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Un lead con esito definitivo è sparito da CRM4 e devi cambiargli l'esito. Come lo rimetti dentro?",
+ "opzioni":[["Da Manager Stats: inserisco il numero di telefono della cliente finale e lo rimando su CRM4, dove ricompare nella call list",true],["Lo cerco nella sezione Richiami e lo aggiungo in call list",false],["Lo ricreo a mano come nuovo contatto su CRM4",false],["Scrivo al project manager: solo lui può riaprire un lead chiuso",false]],
+ "spiegazione":"Gli esiti definitivi fanno sparire il lead da CRM4: si rimette dentro da Manager Stats inserendo il numero di telefono, e ricompare nella call list a destra."},
+
+{"codice":"esi-04","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Una cliente disdice un appuntamento che avevi esitato come \"Appuntamento confermato\". Qual è la procedura corretta?",
+ "opzioni":[["Lo rimando su CRM4 da Manager Stats inserendo il numero, lo ritrovo nella call list e lo esito come \"Disdetto\"",true],["Lo cerco nei Richiami e cambio l'esito in \"Disdetto\"",false],["Metto \"Non interessato\", visto che non verrà",false],["Avviso la titolare su WhatsApp: l'esito resta \"Appuntamento confermato\"",false]],
+ "spiegazione":"Il lead ha un esito definitivo, quindi è sparito da CRM4: va rimandato dentro come al punto 7 della guida, ricompare nella call list e solo allora si esita \"Disdetto\"."},
+
+{"codice":"esi-05","sezione":"Esiti: definitivi e casi speciali","tipo":"multipla",
+ "testo":"Cosa comporta dimenticarsi di esitare un appuntamento disdetto? (più di una risposta)",
+ "opzioni":[["Le tue statistiche risultano sfalsate",true],["Il centro non riceve il messaggio che comunica la disdetta",true],["Il lead viene riassegnato a un'altra beauty specialist",false],["L'acconto viene rimborsato in automatico",false]],
+ "spiegazione":"Oltre a sfalsare le statistiche, il centro non riceve la comunicazione della disdetta: è un problema per il cliente."},
+
+{"codice":"esi-06","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Ti esce un lead che arriva da un modulo che non è dei nostri (non c'è il nome SV). Che esito metti?",
+ "opzioni":[["Errore",true],["Numero errato",false],["Richiamo pubblico",false],["Non in target",false]],
+ "spiegazione":"\"Errore\" si usa per i lead che non dovrebbero uscirti, per esempio quelli che arrivano da un modulo che non è nostro, o per un errore tecnico. \"Numero errato\" è per il numero fake o sbagliato."},
+
+{"codice":"esi-07","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Il lead ti dice che abita troppo lontano e non potrà venire in centro. Perché è importante mettere \"Fuori zona\" e non \"Non interessato\"?",
+ "opzioni":[["Perché segnala al project manager che arrivano lead fuori target e che va sistemata la campagna",true],["Perché \"Non interessato\" è un esito non definitivo",false],["Perché il lead viene passato a un centro più vicino",false],["Perché \"Fuori zona\" non conta nelle statistiche",false]],
+ "spiegazione":"\"Fuori zona\" è un segnale al project manager sulla qualità della campagna: serve a far sistemare il targeting geografico."},
+
+{"codice":"esi-08","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Una lead vorrebbe fare il trattamento ma non può: è una paziente oncologica. Che esito metti?",
+ "opzioni":[["Non in target",true],["Non interessato",false],["Fuori zona",false],["Errore",false]],
+ "spiegazione":"\"Non in target\" è per chi ha un impedimento a fare il trattamento: non è che non sia interessata, proprio non può farlo."},
+
+{"codice":"esi-09","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"Quando si usa \"Richiamo pubblico\"?",
+ "opzioni":[["Solo quando te lo comunica il project manager: serve a togliere un lead assegnato a te e rimetterlo nel sistema (es. fine di una sostituzione)",true],["Ogni volta che un lead chiede di essere richiamato in orario serale",false],["Quando il lead ha un numero pubblico, aziendale",false],["Quando vuoi passare un lead difficile a una collega più esperta",false]],
+ "spiegazione":"Da utilizzare SOLO quando lo comunica il PM. Caso tipico: stavi sostituendo una collega, lei rientra e i lead assegnati a te devono tornare a lei."},
+
+{"codice":"esi-10","sezione":"Esiti: definitivi e casi speciali","tipo":"singola",
+ "testo":"A cosa serve il campo note quando NON stai fissando un appuntamento?",
+ "opzioni":[["A contestualizzare l'esito, es. \"fuori zona: è di Viterbo e il centro è a Roma\" o il motivo del non interessato",true],["Non va compilato: le note servono solo per la data dell'appuntamento",false],["A scrivere il tuo nome e l'ora della chiamata",false],["A segnalare i problemi tecnici, al posto di Manager Stats",false]],
+ "spiegazione":"Le note vanno usate con la data SOLO quando si fissa l'appuntamento; negli altri casi servono a contestualizzare l'esito con l'informazione utile."},
+
+{"codice":"reg-01","sezione":"Registrazione delle chiamate","tipo":"singola",
+ "testo":"Perché si usa il tool di registrazione delle chiamate?",
+ "opzioni":[["Perché le chiamate si fanno da un device esterno: la registrazione serve a darvi feedback per migliorarle",true],["Perché serve come prova legale della telefonata",false],["Perché CRM4 non registra l'esito senza l'audio",false],["Perché la registrazione fa partire il messaggio WhatsApp automatico",false]],
+ "spiegazione":"Facendo le chiamate da un telefono e non dal computer, serve lo strumento di registrazione per poter poi dare feedback specifici."},
+
+{"codice":"reg-02","sezione":"Registrazione delle chiamate","tipo":"singola",
+ "testo":"Cosa devi dire a voce all'inizio di OGNI singola chiamata?",
+ "opzioni":[["\"Nuova chiamata, LEAD ID 139033\", leggendo il LEAD ID dalle informazioni del lead su CRM4",true],["Nome e cognome della cliente che stai chiamando",false],["Il nome del centro estetico e l'ora",false],["Niente: basta dire \"nuova chiamata\"",false]],
+ "spiegazione":"Va detta la formula \"nuova chiamata\" seguita dal LEAD ID che trovi nelle informazioni del lead. Senza il numero, il pezzo di registrazione non si può associare."},
+
+{"codice":"reg-03","sezione":"Registrazione delle chiamate","tipo":"singola",
+ "testo":"Perché è indispensabile citare il LEAD ID a voce?",
+ "opzioni":[["Perché un'intelligenza artificiale ascolta la registrazione, la spacchetta e capisce a quale chiamata corrisponde ogni pezzo",true],["Perché senza il LEAD ID la registrazione non parte",false],["Perché serve a far scattare l'esito automatico su CRM4",false],["Perché il LEAD ID è la password della sessione di registrazione",false]],
+ "spiegazione":"L'AI scorpora la registrazione in singole chiamate e le associa al lead giusto grazie al LEAD ID: così il feedback è sulla chiamata specifica."},
+
+{"codice":"reg-04","sezione":"Registrazione delle chiamate","tipo":"singola",
+ "testo":"Smetti di chiamare per mezz'ora. Cosa fai con la registrazione?",
+ "opzioni":[["Clicco \"pausa caffè\" per bloccarla e poi \"riprendi\" quando ricomincio",true],["Chiudo la scheda e ne apro una nuova dopo",false],["Lascio andare la registrazione, tanto il silenzio viene tagliato",false],["Clicco \"fine sessione di lavoro\" e ne comincio un'altra",false]],
+ "spiegazione":"Quando non stai chiamando si mette in pausa (\"pausa caffè\") e si riprende dopo."},
+
+{"codice":"reg-05","sezione":"Registrazione delle chiamate","tipo":"multipla",
+ "testo":"Il bottone \"fine sessione di lavoro\": come e perché si usa? (più di una risposta)",
+ "opzioni":[["Si clicca circa ogni ora di chiamate, non solo a fine giornata",true],["Serve a non perdere tutta la registrazione se si scarica il pc o cade la connessione",true],["Dopo averlo cliccato non si deve chiudere la scheda finché l'invio non è finito",true],["Va cliccato dopo ogni singola chiamata",false]],
+ "spiegazione":"Circa ogni ora si clicca \"fine sessione di lavoro\": l'audio viene caricato su Drive e non si rischia di perdere tutto. Durante \"invio in corso\" la scheda non va chiusa."},
+
+{"codice":"ms-01","sezione":"Manager Stats e report","tipo":"multipla",
+ "testo":"A cosa serve Manager Stats? (più di una risposta)",
+ "opzioni":[["A segnalare i problemi",true],["A mandare il report giornaliero",true],["A rimandare i lead su CRM4",true],["A guardare le tue metriche",true],["A effettuare le chiamate",false]],
+ "spiegazione":"Manager Stats è la piattaforma per tutto ciò che non è CRM4: problemi, report, rimandare lead su CRM4 e metriche."},
+
+{"codice":"ms-02","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Ogni quanto va compilato il report di fine giornata?",
+ "opzioni":[["Tutti i giorni, sia che ci siano stati problemi sia che non ce ne siano stati",true],["Solo nei giorni in cui c'è stato un problema",false],["Una volta a settimana, il venerdì",false],["Solo quando lo chiede il project manager",false]],
+ "spiegazione":"Va mandato tutti i giorni: se non ci sono problemi si clicca \"no\" e si invia lo stesso."},
+
+{"codice":"ms-03","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Nei report vedi un trattino rosso su un giorno. Cosa significa?",
+ "opzioni":[["Che quel giorno non hai inviato il modulo",true],["Che hai segnalato un problema",false],["Che il report è stato inviato senza problemi",false],["Che il report è in attesa di approvazione del manager",false]],
+ "spiegazione":"Punto esclamativo = hai segnalato un problema; spunta = report inviato senza problemi; trattino rosso = modulo non inviato."},
+
+{"codice":"ms-04","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Nel report c'è la sezione \"Task del giorno\". Come si comporta una beauty specialist?",
+ "opzioni":[["La ignora: è una sezione per i project manager",true],["La compila ogni sera con le attività svolte",false],["La compila solo se ha avuto problemi",false],["La compila una volta a settimana",false]],
+ "spiegazione":"\"Task del giorno\" non compete alle beauty specialist, è per i project manager."},
+
+{"codice":"ms-05","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Hai due problemi diversi con due clienti diversi nella stessa giornata. Come compili il report?",
+ "opzioni":[["Clicco \"sì\", scelgo il primo cliente e scrivo il problema, poi \"aggiungi un altro problema\" e ripeto con il secondo cliente",true],["Scrivo entrambi i problemi nello stesso campo di testo",false],["Mando due report separati",false],["Segnalo solo il più grave",false]],
+ "spiegazione":"Ogni problema va agganciato al suo cliente: si usa \"aggiungi un altro problema\" e si seleziona il secondo cliente."},
+
+{"codice":"ms-06","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Segnali un problema tecnico su un cliente (es. un reminder non partito). Cosa succede?",
+ "opzioni":[["Nel 90% dei casi l'intelligenza artificiale risolve da sola e lo invia; se serve una persona, viene notificato il manager di reparto",true],["Viene aperto un ticket che il project manager lavora entro 48 ore",false],["Il problema viene messo in coda e risolto il giorno dopo",false],["Devi comunque riscrivere il problema sul gruppo WhatsApp",false]],
+ "spiegazione":"Si inserisce il numero della cliente e cosa non va: nel 90% dei casi il software risolve da solo, altrimenti la segnalazione arriva al manager di reparto."},
+
+{"codice":"ms-07","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Qual è la differenza tra il filtro \"per data chiamata\" e \"per data inserimento\"?",
+ "opzioni":[["Data chiamata = quello che è successo (le chiamate/esiti) in quel periodo; data inserimento = i lead ENTRATI in quel periodo, comunque li abbia lavorati dopo",true],["Data chiamata = i lead entrati; data inserimento = quando li hai chiamati",false],["Data chiamata riguarda i richiami, data inserimento i lead nuovi",false],["Non cambia nulla nei numeri, cambia solo l'ordinamento",false]],
+ "spiegazione":"È il punto dove nascono quasi tutti gli equivoci sui numeri: \"per data chiamata\" guarda quando hai lavorato, \"per data inserimento\" guarda quando il lead è entrato."},
+
+{"codice":"ms-08","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Un lead è entrato il 15 e tu lo hai fissato il 22. Con il filtro \"per data inserimento\" impostato dal 22 al 22, lo vedi?",
+ "opzioni":[["No: con \"data inserimento\" lo trovo mettendo il 15, perché è il giorno in cui è entrato",true],["Sì, perché l'appuntamento è stato fissato il 22",false],["Sì, perché il filtro guarda sempre l'ultima attività",false],["No, perché gli appuntamenti non compaiono in quella vista",false]],
+ "spiegazione":"Con \"per data inserimento\" conta il giorno di ingresso del lead (il 15), non il giorno in cui è stato fissato. Con \"per data chiamata\", invece, lo vedresti al 22."},
+
+{"codice":"ms-09","sezione":"Manager Stats e report","tipo":"singola",
+ "testo":"Con quale filtro si fa il 90% delle analisi?",
+ "opzioni":[["Per data inserimento lead",true],["Per data chiamata",false],["Per centro estetico",false],["Per esito",false]],
+ "spiegazione":"Quasi tutte le analisi si fanno per data di inserimento: interessa sapere, su 100 lead dati, quanti vengono fissati."},
+
+{"codice":"met-01","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Qual è il tasso di risposta minimo richiesto?",
+ "opzioni":[["65%",true],["50%",false],["75%",false],["28%",false]],
+ "spiegazione":"Il 65% è la soglia minima; con un buon lavoro si arriva sopra il 75%."},
+
+{"codice":"met-02","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Sotto quale percentuale deve restare il dato dei \"lavorati male\"?",
+ "opzioni":[["5%",true],["10%",false],["18%",false],["1%",false]],
+ "spiegazione":"La percentuale di lavorati male non deve mai superare il 5%."},
+
+{"codice":"met-03","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Che cos'è esattamente la percentuale di \"lavorati male\"?",
+ "opzioni":[["La quota di lead entrati nel periodo che NON hanno raggiunto un esito definitivo",true],["La quota di lead che non hanno risposto al telefono",false],["La quota di appuntamenti disdetti",false],["La quota di lead chiamati oltre le 24 ore",false]],
+ "spiegazione":"Sono i lead entrati nel periodo analizzato rimasti senza esito definitivo."},
+
+{"codice":"met-04","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Oggi è il 23. Guardi i lead entrati oggi e i \"lavorati male\" sono al 30%. Come lo interpreti?",
+ "opzioni":[["È fisiologico: la procedura richiede almeno 2-3 giorni, quindi il dato si legge sulla settimana precedente, non sul giorno stesso",true],["È un'emergenza: vanno richiamati subito tutti",false],["È un errore del software: va segnalato",false],["Significa che il 30% dei lead è di scarsa qualità",false]],
+ "spiegazione":"I lead di oggi non possono già essere chiusi: la procedura dei non risposti dura 2 giorni. Il dato va guardato su un periodo abbastanza vecchio (es. la settimana prima)."},
+
+{"codice":"met-05","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Che cos'è il \"time to lead\" e qual è l'obiettivo?",
+ "opzioni":[["Il tempo mediano fra l'ingresso di un lead nella fascia 9-18 e la tua prima chiamata; l'obiettivo è stare sotto i 15 minuti",true],["Il tempo medio di durata di una chiamata; l'obiettivo è stare sopra i 3 minuti",false],["Il tempo che passa fra la prima chiamata e l'appuntamento; l'obiettivo è sotto le 48 ore",false],["Il tempo che passa fra l'appuntamento e il pagamento dell'acconto; l'obiettivo è sotto le 24 ore",false]],
+ "spiegazione":"È la mediana del tempo di primo contatto sui lead entrati fra le 9 e le 18. Una mediana di 44 minuti è considerata alta: si punta sotto i 15 minuti."},
+
+{"codice":"met-06","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Qual è la soglia minima dell'\"appuntamento su risposta\"?",
+ "opzioni":[["28%",true],["18%",false],["65%",false],["14,6%",false]],
+ "spiegazione":"È la metrica qualitativa per eccellenza: su 10 persone che ti rispondono, quante ne fissi. Minimo richiesto 28%."},
+
+{"codice":"met-07","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"L'obiettivo di \"appuntamento sul totale\" è il 18%. Da dove nasce questo numero?",
+ "opzioni":[["Dal prodotto fra il 65% di tasso di risposta e il 28% di appuntamento su risposta (0,65 × 0,28 ≈ 0,18)",true],["Dalla media storica degli ultimi 12 mesi di tutte le beauty specialist",false],["Dal rapporto fra appuntamenti e acconti pagati",false],["È una soglia fissata dal singolo centro estetico",false]],
+ "spiegazione":"18% = 65% × 28%. È la soglia minima che statisticamente rende il centro soddisfatto e lo porta a rinnovare."},
+
+{"codice":"met-08","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Il 18% di appuntamenti sul totale è una media generale o va raggiunto su ogni centro?",
+ "opzioni":[["Va raggiunto come minimo su ogni singolo centro estetico, non solo in media",true],["È una media complessiva: basta compensare un centro debole con uno forte",false],["È un obiettivo mensile di reparto, non individuale",false],["È solo un riferimento indicativo, senza soglia",false]],
+ "spiegazione":"Non in media: per ogni centro estetico quel 18% è il minimo."},
+
+{"codice":"met-09","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Nel calcolo dell'\"appuntamento sul totale\" (nell'esempio 6 su 41, non 8 su 41), che fine fanno gli appuntamenti disdetti?",
+ "opzioni":[["Vengono tolti: i disdetti non contano nel numeratore",true],["Contano come mezzo appuntamento",false],["Contano normalmente come appuntamenti fissati",false],["Vengono tolti dal totale dei lead, non dagli appuntamenti",false]],
+ "spiegazione":"La metrica leva i disdetti: nell'esempio gli appuntamenti fissati erano 8, ma il calcolo usa 6/41."},
+
+{"codice":"met-10","sezione":"Le metriche su cui sei valutata","tipo":"multipla",
+ "testo":"Quali sono le metriche QUANTITATIVE su cui vieni valutata? (più di una risposta)",
+ "opzioni":[["Tasso di risposta",true],["Time to lead",true],["Percentuale di lavorati male",true],["Appuntamento su risposta",false]],
+ "spiegazione":"Quantitativo: tasso di risposta, time to lead, lavorati male. Qualitativo: appuntamento su risposta."},
+
+{"codice":"met-11","sezione":"Le metriche su cui sei valutata","tipo":"singola",
+ "testo":"Hai proposto l'acconto (link mandato) a 3 persone: una lo paga, due no. Quanto fa la percentuale di acconti presi?",
+ "opzioni":[["33%",true],["100%",false],["66%",false],["Non si calcola: si contano solo gli acconti pagati",false]],
+ "spiegazione":"È il rapporto fra acconti pagati e acconti proposti: 1 su 3 = 33%."}
+]
